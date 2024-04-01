@@ -10,6 +10,6 @@ import lombok.Data;
 public class Categoria {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer Id;
+    private Integer id;
     private String nombre;
 }
